@@ -1,11 +1,18 @@
 package com.vish.java;
 
+import com.vish.java.inventory.Product;
+
 import java.util.*;
 
 public class Main {
     private static List<Bid> bidList;
 
     public static void main(String[] args) {
+
+        setUpUi();
+
+
+
         // create list to hold bids
         bidList = new ArrayList<>();
 
@@ -53,5 +60,26 @@ public class Main {
 
         System.out.println("---------------------------");
         System.out.println("Winner is " + auction.getWinningUser().getName() + " with winning bid : " + auction.getWinningBid().getAmount());
+
+
+    }
+
+
+    public static void setUpUi(){
+        System.out.println("-------------------------------------");
+        System.out.println("            AUCTION SYSTEM           ");
+        System.out.println("-------------------------------------");
+
+        System.out.println("Welcome to our auction room.");
+        System.out.println("Use the number to pass in the commands.");
+        System.out.println(" ");
+
+        System.out.println("Commands :");
+        System.out.println("1. Login");
+        System.out.println("2. Find auctions");
+        System.out.println("3. exit");
+
+        System.out.println("-------------------------------------");
+
     }
 }

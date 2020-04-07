@@ -1,5 +1,7 @@
 package com.vish.java;
 
+import com.vish.java.inventory.Product;
+
 public class Bid {
     private int mId;
     private Product mProduct;

@@ -1,4 +1,4 @@
-package com.vish.java;
+package com.vish.java.inventory;
 
 import java.util.ArrayList;
 import java.util.List;

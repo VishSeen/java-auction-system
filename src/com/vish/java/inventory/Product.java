@@ -1,4 +1,6 @@
-package com.vish.java;
+package com.vish.java.inventory;
+
+import com.vish.java.User;
 
 public class Product {
     private int mId;
