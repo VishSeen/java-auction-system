@@ -77,7 +77,7 @@ public class Main {
         System.out.println("Commands :");
         System.out.println("1. Login");
         System.out.println("2. Find auctions");
-        System.out.println("3. exit");
+        System.out.println("3. Exit");
 
         System.out.println("-------------------------------------");
 
